@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #878787;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-header {
+    background: #f0f5f5;
+    height: 120px;
+    display: block;
+}
+
+.nav-div {
+    margin: auto;
+}
+.logo-img {
+    width: 120px;
+    margin-left: 20px;
+}
+.search-icon {
+    margin: 30px;
+}
+.nav-bar {
+    list-style-type: none;
+    display: block;
+}
+.nav-bar-link {
+    display: block;
+    overflow-x: auto;
+    color: #878787;
+    font-size: 12px;
+    padding: 0px;
+}
+.main-header-home {
+    height: 200px;
+    background: url("imgs/LJWbdkW.gif") no-repeat center;
+    background-size: cover;
+}
+.main-header-contact {
+    height: 150px;
+    background: url("imgs/08HVpfD.png") no-repeat center;
+    background-size: cover;
+}
+.main-header-experience {
+    height: 300px;
+    background: url("imgs/galaxyRender.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header-education {
+    height: 300px;
+    background: url("imgs/CIIbJj4.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header-skills {
+    height: 300px;
+    background: url("imgs/cpuCity.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header-interests {
+    height: 300px;
+    background: url("imgs/rose.jpg") no-repeat center;
+    background-size: cover;
+}
+.main-header-title {
+    text-align: center;
+    font-size: 2em;
+    color: #f7f8f9;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-left: 75px;
+    text-shadow: 3px 2px grey;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.main-header-title2 {
+    text-align: center;
+    font-size: 1em;
+    color: #f7f8f9;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-left: 75px;
+    text-shadow: 3px 2px grey;
+    margin-top: 0;
+    padding-top: 0;
+}
+.main-header-intro {
+    text-align: center;
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    color: white;
+}
+.intro {
+    width: 60%;
+    margin: auto;
+}
+.button {
+    display: block;
+    background-color: #633a1e;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 2px #633a1e;
+    font-weight: bold;
+    margin: 0 auto;
+    width: 200px;
+    border: solid 10px #633a1e;
+    align-content: center;
+}
+.card {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: #f0f5f5;
+}
+.footer {
+    height: 40px;
+    background: #f0f5f5;
+    padding: 5px;
+}
